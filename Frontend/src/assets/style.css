@@ -1,0 +1,86 @@
+/* GERAL */
+
+html, body {
+    
+    height: 100%; /* Faz com que o html e o body ocupem 100% da altura da tela */
+    margin: 0;    /* Remove as margens padrão do body */
+    background-color: #eceff1;
+}
+
+  /* Usando min-height para garantir que o body tenha no mínimo 100vh */
+body {
+    min-height: 100vh; /* Garantir que o body ocupe toda a altura da janela de visualização */
+    display: flex;       /* Flexbox no body */
+    flex-direction: column; /* Organiza os itens do body em uma coluna */
+    
+    
+}
+a:hover{
+    background-color: inherit;
+}
+.content {
+    margin-top: 210px; /* Padrão de espaçamento da primeira div com o navbar para telas maiores */
+  }
+
+  @media (max-width: 768px) {
+    /* Ajuste de espaçamento da primeira div com o navbar para telas pequenas */
+    .content {
+      margin-top: 220px;
+    }
+  }
+  .fundoCinza{
+    background-color: #eceff1;
+  }
+  .fundoBranco{
+    background-color: white;
+  }
+  .fundoAzul{
+    background-color: blue;
+  }
+  .corVermelho{
+    color: red;
+  }
+  .corVerde{
+    color: #558b2f   ;
+  }
+  .corAzul{
+    color: blue;
+  }
+  
+  .btnOpcoes{
+    font-size: x-large;
+    cursor: pointer;
+
+  }
+  .cursor{
+    cursor: pointer;
+  }
+  .bordaVerde{
+    border: solid 2px green ;
+  }
+  .bordaAzul{
+    border: solid 2px blue;
+  }
+  .bordaPreta{
+    border: solid 1px black;
+  }
+  .centralizar{
+    text-align: center;
+  }
+
+  .btnNao{
+    text-decoration: none;
+    color: #000000;
+  }
+  .btnNao :hover{
+    color: #c62828;
+    cursor: pointer;
+  }
+  .btnSim{
+    text-decoration: none;
+    color: #000000;
+  }
+  .btnSim :hover{
+    color: green ;
+    cursor: pointer;
+  }
